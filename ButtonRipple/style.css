@@ -23,10 +23,14 @@ body {
 	content: "";
 	position: absolute;
 	background-color: orangered;
+	width: 0;
+	height: 0;
+	left: var(--xPos);
+	top: var(--yPos);
 	top: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 50%;
-	transition: width 0.5, height 0.5s;
+	transition: width 0.8, height 0.8s;
 }
 
 .btn:hover::before {
