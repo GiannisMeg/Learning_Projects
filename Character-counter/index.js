@@ -8,7 +8,7 @@ textAreaEl.addEventListener("keyup", () => {
 	updateCounter();
 });
 
-updateCounter();
+updateCounter(2580);
 
 function updateCounter() {
 	totalCounterEl.innerText = textAreaEl.value.length;
