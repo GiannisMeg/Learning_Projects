@@ -20,11 +20,11 @@ function generateColors() {
 
 function randomColor() {
 	// give the char set to function to pick the ideal combination
-	const chars = "0123456789abcdf";
+	const chars = "0123456789abcdef";
 	const colorCodeLength = 6;
 	let colorCode = "";
 
-	for (let index = 0; index < codeColorLength; index++) {
+	for (let index = 0; index < colorCodeLength; index++) {
 		const randomNum = Math.floor(Math.random() * chars.length);
 		colorCode += chars.substring(randomNum, randomNum + 1);
 	}
